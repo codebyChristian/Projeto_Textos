@@ -1,0 +1,128 @@
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bolder;
+    font-size: 1.05em;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #F5B15F;
+
+}
+
+header {
+    background-color: #c47924;
+}
+
+header > h1 {
+    padding: 10px;
+    text-align: center;
+}
+
+span#burger {
+    background-color: rgba(0, 0, 0, 0.37);
+    display: block;
+    color: white;
+    padding: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+span#burger:hover {
+    background-color: white;
+    color: black;
+}
+
+menu {
+    display: none;
+
+}
+
+menu > ul {
+    list-style-type: none;
+}
+
+menu > ul > li > a {
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    text-align: center;
+    background-color: #B39F79;
+    color: white;
+    border-top: 1px solid burlywood;
+}
+
+menu > ul > li > a:hover {
+    background-color:  #78879D;
+}
+
+main {
+    border-radius: 10px;
+    width: 90vw;
+    margin: auto;
+    margin-top: 10px;
+}
+
+section {
+    border-radius: 10px;
+}
+
+section#coffee {
+    background: url(../imagens/sugar-coffee.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+section#alcool {
+    background: url(../imagens/alcool.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+    
+}
+
+section#horror {
+    background: url(../imagens/horror.jpg) no-repeat;
+    background-size: cover;
+    padding-top: 25px;
+}
+
+article {
+    border-radius: 10px;
+    color: #1F0404;
+}
+
+article > h2 {
+    text-align: center;
+    padding-top: 8px;
+    padding-bottom: 8px;
+
+}
+
+article > p {
+    text-indent: 20px;
+    text-align: justify;
+    margin-bottom: 16px;
+    padding-left: 8px;
+    padding-right: 8px;
+    padding-bottom: 8px;
+    
+}
+
+.blur-text {
+    background-color: rgba(128, 128, 128, 0.37);  
+    
+}
+
+.bluer-images {
+    box-shadow: inset 3px 3px 4px rgba(0, 0, 0, 0.616);
+}
+
+
+
