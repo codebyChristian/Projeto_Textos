@@ -70,42 +70,42 @@ main {
     margin-top: 10px;
 }
 
-section {
+article {
     border-radius: 10px;
 }
 
-section#coffee {
+article#coffee {
     background: url(../imagens/sugar-coffee.jpg) no-repeat;
     background-size: cover;
     padding-top: 25px;
 }
 
-section#alcool {
+article#alcool {
     background: url(../imagens/alcool.jpg) no-repeat;
     background-size: cover;
     padding-top: 25px;
     
 }
 
-section#horror {
+article#horror {
     background: url(../imagens/horror.jpg) no-repeat;
     background-size: cover;
     padding-top: 25px;
 }
 
-article {
+section {
     border-radius: 10px;
     color: #1F0404;
 }
 
-article > h2 {
+section > h2 {
     text-align: center;
     padding-top: 8px;
     padding-bottom: 8px;
 
 }
 
-article > p {
+section > p {
     text-indent: 20px;
     text-align: justify;
     margin-bottom: 16px;
