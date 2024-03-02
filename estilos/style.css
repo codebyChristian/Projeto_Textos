@@ -1,5 +1,11 @@
 @charset "UTF-8";
 
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Cinzel:wght@400..900&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+
 * {
     margin: 0px;
     padding: 0px;
@@ -8,17 +14,28 @@
     font-size: 1.05em;
 }
 
+:root {
+    --cor_fundo: #F5B15F;
+    --cor_header: #c47924;
+    --cor_menu-back-mouse-of: #B39F79;
+    --cor_menu-back-mouse-on: #78879D;
+
+    --font_coffee: "Playfair Display", serif;
+    --font_alcool: "Cinzel", serif;
+    --font_horrot: "EB Garamond", serif;
+}
+
 html {
     scroll-behavior: smooth;
 }
 
 body {
-    background-color: #F5B15F;
-
+    background-color: var(--cor_fundo);
+    
 }
 
 header {
-    background-color: #c47924;
+    background-color: var(--cor_header);
 }
 
 header > h1 {
@@ -54,13 +71,13 @@ menu > ul > li > a {
     padding: 10px;
     text-decoration: none;
     text-align: center;
-    background-color: #B39F79;
+    background-color: var(--cor_menu-back-mouse-of);
     color: white;
     border-top: 1px solid burlywood;
 }
 
 menu > ul > li > a:hover {
-    background-color:  #78879D;
+    background-color:  var(--cor_menu-back-mouse-on);
 }
 
 main {
