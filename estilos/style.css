@@ -132,8 +132,42 @@ section > p {
     
 }
 
+section.text-coffee > h2 {
+    font-family: var(--font_coffee);
+    font-size: 1.4em;
+}
+
+section.text-coffee > p {
+    font-family: var(--font_coffee);
+    font-weight: 400;
+}
+
+section.text-alcool > h2 {
+    font-family: var(--font_alcool);
+    font-size: 1.4em;
+}
+
+section.text-alcool > p {
+    font-family: var(--font_alcool);
+    font-weight: 500;
+}
+
+section.text-horror > h2 {
+    font-family: var(--font_horrot);
+    font-size: 1.4em;
+}
+
+section.text-horror > p {
+    font-family: var(--font_horrot);
+    font-weight: 500;
+}
+
+p.border-text {
+    border-radius: 10px;
+}
+
 .blur-text {
-    background-color: rgba(128, 128, 128, 0.37);  
+    background-color: rgba(128, 128, 128, 0.733);  
     
 }
 
