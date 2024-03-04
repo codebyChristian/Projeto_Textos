@@ -1,0 +1,74 @@
+
+@charset "UTF-8";
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+html, body {
+    height: 100vh;
+    width: 100vw;
+    background-color: rgb(49, 8, 87);
+}
+
+body {
+    background: url('../pacote_projeto/images/neon1.png') ;
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.bar-lateral{
+    display: block;
+    
+}
+
+main {
+    position: relative;
+    height: 100vh;
+   
+}
+
+section#phone {
+    position: absolute;
+    
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    background: url('../pacote_projeto/images/frame-phone.png') no-repeat;
+    width: 448px;
+    height: 627px;
+}
+
+iframe#screen {
+    position: relative;
+    top: 37px;
+    left: 72px;
+    border-radius: 12px;
+    width: 302px;
+    height: 535px;
+    
+}
+
+section#icons {
+    text-align: right;
+}
+
+section#icons img {
+    width: 80px;
+    margin: 10px;
+    border-radius: 50%;
+    box-shadow: 2px 2px 5px rgba(255, 255, 255, 0.322);
+    box-sizing: border-box;
+}
+
+
+
+section#icons img:hover {
+    border: 2px solid rgba(255, 255, 255, 0.486);
+    transform: translate(-3px, -3px);
+    box-shadow: 5px 5px 10px rgba(255, 255, 255, 0.322);
+    transition: transform .6s, border .5s;
+}
+

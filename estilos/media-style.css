@@ -5,19 +5,33 @@
         display: none;
     }
 
+    
+
+    menu > ul {
+        padding: 10px;
+    }
+
     menu {
         display: block;
     }
 
     menu > ul > li {
-        padding-right: 10px;
         display: inline-block;
-        width: 100px;
+        width: 150px;
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.322);
+        box-sizing: border-box;
+        margin-right: 10px;
+    }
+
+    menu > ul > li:hover {
+        transform: translate(-3px, 2px);
+        box-shadow: 1px 1px 1px rgba(255, 255, 255, 0.637);
+        transition: transform .6s, border .5s;
     }
 
     main {
-        width: 97vw;
-        height: 97vh;
+        width: 75vw;
+        height: 75vh;
     }
 
    
