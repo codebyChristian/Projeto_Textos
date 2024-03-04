@@ -34,6 +34,10 @@
         height: 75vh;
     }
 
+    footer {
+        display: block;
+    }
+
    
 }
 
