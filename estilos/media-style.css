@@ -30,13 +30,17 @@
     }
 
     main {
-        width: 75vw;
-        height: 75vh;
+        width: 75%;
+        height: 75%;
     }
 
     footer {
-        display: block;
+        font-size: 1.3em;
+        font-weight: 500;
+
     }
+
+    
 
    
 }
